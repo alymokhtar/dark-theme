@@ -5,6 +5,6 @@ icon.onclick = function () {
   if (document.body.classList.contains("dark-theme")) {
     icon.src = "./Images/sun.png";
   } else {
-    icon.src = "/Images/moon.png";
+    icon.src = "./Images/moon.png";
   }
 };
